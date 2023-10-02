@@ -2,14 +2,14 @@ import java.util.ArrayList;
 import java.util.List;
 public class Biblioteca {
 
-    private ArrayList<Libro> listaLibros;
+    private ArrayList<Libro> libros;
     private String nombreBiblioteca;
     private String direccionBiblioteca;
 
     public Biblioteca(String nombreBiblioteca, String direccionBiblioteca) {
         this.nombreBiblioteca = nombreBiblioteca;
         this.direccionBiblioteca = direccionBiblioteca;
-        this.listaLibros = new ArrayList<Libro>();
+        this.libros = new ArrayList<Libro>();
     }
 
     public String getNombreBiblioteca() {
@@ -26,5 +26,9 @@ public class Biblioteca {
 
     public void setDireccionBiblioteca(String direccionBiblioteca) {
         this.direccionBiblioteca = direccionBiblioteca;
+    }
+
+    public ArrayList<Libro>getLibros() {
+        return this.libros;
     }
 }
