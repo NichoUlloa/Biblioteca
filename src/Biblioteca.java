@@ -62,14 +62,4 @@ public class Biblioteca {
         return false;
 
     }
-    public boolean libroExi(Libro libro) {
-        for (Libro l : listaLibros) {
-            if(libro.getISBN().equals(l.getISBN())) {
-                return true;
-            }
-        }
-
-        return false;
-
-    }
 }
