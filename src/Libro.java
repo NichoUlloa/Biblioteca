@@ -41,9 +41,7 @@ public class Libro {
         return this.ISBN;
     }
 
-
     public String toString() {
         return "Nombre: " + this.Nombre + " Autor: " + this.Autor + " Editorial: " + this.Editorial;
     }
-
 }

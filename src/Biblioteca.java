@@ -42,7 +42,6 @@ public class Biblioteca {
         }
         return null;
     }
-
     public String obtenerLibroPorAutor(String autor) {
         for (Libro libro : this.listaLibros) {
             if (libro.getAutor().equals(autor)) {
