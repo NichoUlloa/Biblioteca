@@ -52,4 +52,5 @@ public class Prestamo {
     public void setFechaTermino(String fechaTermino) {
         this.fechaTermino = fechaTermino;
     }
+
 }
