@@ -1,5 +1,4 @@
 public class Libro {
-
     private String Nombre;
     private String Autor;
     private String Editorial;
@@ -10,7 +9,6 @@ public class Libro {
         this.Autor = Autor;
         this.Editorial = Editorial;
         this.ISBN = ISBN;
-
     }
 
     public String getNombre() {
@@ -25,6 +23,10 @@ public class Libro {
         return this.Editorial;
     }
 
+    public String getISBN() {
+        return this.ISBN;
+    }
+
     public void setNombre(String Nombre) {
         this.Nombre = Nombre;
     }
@@ -37,11 +39,11 @@ public class Libro {
         this.Editorial = Editorial;
     }
 
-    public String getISBN() {
-        return this.ISBN;
+    public void setISBN(String ISBN) {
+        this.ISBN = ISBN;
     }
 
     public String toString() {
-        return "Nombre: " + this.Nombre + " Autor: " + this.Autor + " Editorial: " + this.Editorial;
+        return "Nombre: " + this.Nombre + "\nAutor: " + this.Autor + "\nEditorial: " + this.Editorial + "\nISBN: " + this.ISBN;
     }
 }
