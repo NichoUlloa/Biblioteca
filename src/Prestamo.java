@@ -12,7 +12,6 @@ public class Prestamo {
         this.fechaInicio = fechaInicio;
         this.fechaTermino = fechaTermino;
     }
-
     public Bibliotecario getBibliotecario() {
         return this.bibliotecario;
     }
